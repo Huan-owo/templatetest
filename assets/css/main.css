@@ -3339,12 +3339,6 @@ input, select, textarea {
 			}
 
 	}
-	/* Ajuste para manter o tamanho original dos ícones do template */
-.icon i {
-    font-size: 2.75em;
-    line-height: 1em;
-    display: inline-block;
-}
 
 
 /* ----------------------------
