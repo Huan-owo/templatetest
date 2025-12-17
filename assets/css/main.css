@@ -2946,7 +2946,7 @@ input, select, textarea {
 				padding-top: 4.5em;
 			}
 
-		/* CTA 
+		/* CTA
 
 			#cta {
 				margin: 0;
@@ -3359,25 +3359,59 @@ input, select, textarea {
    Breakpoints para telas menores
    ---------------------------- */
 
+@media screen and (max-width: 1680px) {
+	.icon i {
+        font-size: 1.2em;
+    }
+	.icon.circle {
+        font-size: 2.em;
+    }
+    .featured-icons .icon i {
+        font-size: 1.0em;
+    }
+	header.special .icon {
+        font-size: 0.95em;
+        top: 0em;
+    }
+}
+
+
 /* Tablets */
 @media screen and (max-width: 980px) {
     .icon i {
-        font-size: 2.2em;
+        font-size: 1.2em;
     }
-
+	.icon.circle {
+        font-size: 2.em;
+    }
     .featured-icons .icon i {
         font-size: 1.0em;
+    }
+	header.special .icon {
+        font-size: 0.95em;
+        top: 0em;
+    }
+	body, input, select, textarea {
+        font-size: 13pt;
+        letter-spacing: 0.025em;
+        line-height: 1.5em;
     }
 }
 
 /* Smartphones grandes */
 @media screen and (max-width: 736px) {
     .icon i {
-        font-size: 1.9em;
+        font-size: 0,98em;
     }
-
+	.icon.circle {
+        font-size: 1.4em;
+    }
     .featured-icons .icon i {
         font-size: 0.9em;
+    }
+	header.special .icon {
+        font-size: 0.85em;
+        top: 0em;
     }
 	.row p {
 		text-align: center;
@@ -3387,11 +3421,17 @@ input, select, textarea {
 /* Smartphones pequenos */
 @media screen and (max-width: 480px) {
     .icon i {
+        font-size: 0,8em;
+    }
+	.icon.circle{
         font-size: 1.6em;
     }
-
     .featured-icons .icon i {
         font-size: 0.8em;
+    }
+	header.special .icon {
+        font-size: 0.75em;
+        top: 0em;
     }
 }
 	.icon {
@@ -3412,14 +3452,6 @@ input, select, textarea {
 	font-size:inherit;
 }
 
-	.icon i{
-		font-size: 1.25em;
-		line-height: 1;
-		margin: 0;
-		padding: 0;
-		vertical-align: middle;
-}	
-	
 
 
 /* tentativa: deixar o conteudo de p centralizado
