@@ -3416,6 +3416,12 @@ input, select, textarea {
 	.row p {
 		text-align: center;
 	}
+	.carousel-control-prev-icon {
+		display:none !important;
+	}
+	.carousel-control-next-icon{
+		display: none !important;
+	}
 }
 
 /* Smartphones pequenos */
@@ -3458,7 +3464,10 @@ input, select, textarea {
 		padding: 0%;
 		margin: 0%;
 	}
-
+	.linklocalizacao{
+		text-decoration: none;
+		color: #7c8081;
+	}
 
 /* tentativa: deixar o conteudo de p centralizado
 }
